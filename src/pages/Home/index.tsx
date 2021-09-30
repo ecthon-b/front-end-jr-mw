@@ -1,27 +1,13 @@
-import { Avatar, Cards, ContainerCards, Container, Header } from './styles'
-import Logo from '../../assets/marvel-logo.svg';
+import {  Cards, ContainerCards, Container } from './styles'
 import PostSpiderMan from '../../assets/post-spider-man.jpg';
 import PostWandaMaximoff from '../../assets/wanda-maximoff.jpg';
 import Thanos from '../../assets/thanos.jpg';
+import { Header } from '../../components/Header';
 
 export function Home() {
     return (
         <>
-            <Header>
-                <a href=""><img src={Logo} alt="Logo da Marvel" /></a>
-
-                <div>
-                    <nav>
-                        <a href="">Personagens</a>
-                        <a href="">Filmes</a>
-                        <a href="">HQs</a>
-                    </nav>
-                    <Avatar>
-                        <img src="https://github.com/ecthon.png" alt="" />
-                        <button>Sair</button>
-                    </Avatar>
-                </div>
-            </Header>
+            <Header />
         <Container>
             <ContainerCards>
                 <Cards>
