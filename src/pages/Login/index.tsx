@@ -21,7 +21,7 @@ export function Login() {
                         </div>
                         <a href="/">Esqueci a senha</a>
                     </Options>
-                    <button>Entrar</button>
+                    <a href="/home"><button>Entrar</button></a>
                     <CreateAccount>
                         <p>Ainda não tem o login? </p><span><a href="">Cadastre-se</a></span>
                     </CreateAccount>

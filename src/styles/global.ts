@@ -45,6 +45,10 @@ body {
     -webkit-font-smoothing: antialised;
 }
 
+body, input, button {
+    font-family: 'Axiforma', sans-serif;                        
+}
+
 button {
     cursor: pointer;
 }
