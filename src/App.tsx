@@ -1,9 +1,10 @@
 import { GlobalStyle } from "./styles/global";
+import MainRoutes from "./routes";
 
 export function App() {
   return (
     <div className="App">
-      <h1>Hello Mestres da Web</h1>
+      <MainRoutes />
       <GlobalStyle />
     </div>
   );
