@@ -8,8 +8,8 @@ import { HQs } from "./pages/HQs/index";
 const MainRoutes = () => (
   <BrowserRouter>
     <Switch>
-      <Route path="/login" exact component={Login} />
-      <Route path="/" exact component={Home} />
+      <Route path="/" exact component={Login} />
+      <Route path="/home" exact component={Home} />
       <Route path="/filmes" exact component={Filmes} />
       <Route path="/hqs" exact component={HQs} />
     </Switch>
