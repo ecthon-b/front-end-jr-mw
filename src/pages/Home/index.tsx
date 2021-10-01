@@ -1,7 +1,7 @@
 import {  Cards, ContainerCards, Container } from './styles'
-import PostSpiderMan from '../../assets/post-spider-man.jpg';
-import PostWandaMaximoff from '../../assets/wanda-maximoff.jpg';
-import Thanos from '../../assets/thanos.jpg';
+import PostSpiderMan from '../../assets/personagens/post-spider-man.jpg';
+import PostWandaMaximoff from '../../assets/personagens/wanda-maximoff.jpg';
+import Thanos from '../../assets/personagens/thanos.jpg';
 import { Header } from '../../components/Header';
 
 export function Home() {

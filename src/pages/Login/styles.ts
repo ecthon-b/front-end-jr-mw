@@ -45,6 +45,7 @@ export const ConteinerForm = styled.div`
   p {
     color: var(--gray-800);
     margin-bottom: 21px;
+    font-size: 1.25rem;
   }
 
   button {
@@ -83,6 +84,7 @@ export const Inputs = styled.div`
     border-radius: 50px;
     padding: 28px;
     outline: 0;
+    font-size: 1.25rem;
 
     &:first-child {
       margin-bottom: 18px;
@@ -95,6 +97,12 @@ export const Options = styled.div`
   display: flex;
   justify-content: space-between;
   margin-bottom: 24px;
+
+  a {
+    text-decoration: none;
+    color: var(--gray-800);
+    border-bottom: 1px solid var(--red-900);
+  }
 
   span {
     color: var(--gray-800);

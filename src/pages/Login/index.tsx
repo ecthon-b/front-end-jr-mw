@@ -19,11 +19,11 @@ export function Login() {
                             <input type="checkbox" />
                             <span>Salvar login</span>
                         </div>
-                        <a href="/">Esqueci a senha</a>
+                        <a href="#">Esqueci a senha</a>
                     </Options>
                     <a href="/home"><button>Entrar</button></a>
                     <CreateAccount>
-                        <p>Ainda não tem o login? </p><span><a href="">Cadastre-se</a></span>
+                        <p>Ainda não tem o login? </p><span><a href="#">Cadastre-se</a></span>
                     </CreateAccount>
                 </ConteinerForm>
             </Content>

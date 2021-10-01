@@ -4,17 +4,17 @@ import Logo from '../../assets/marvel-logo.svg';
 export function Header() {
     return (
         <HeaderComponent>
-            <a href="/home"><img src={Logo} alt="Logo da Marvel" /></a>
+            <a href="/"><img src={Logo} alt="Logo da Marvel" /></a>
 
             <div>
                 <nav>
-                    <a href="/home">Personagens</a>
-                    <a href="">Filmes</a>
-                    <a href="">HQs</a>
+                    <a href="/">Personagens</a>
+                    <a href="/filmes">Filmes</a>
+                    <a href="/hqs">HQs</a>
                 </nav>
                 <Avatar>
-                    <img src="https://github.com/ecthon.png" alt="" />
-                    <button>Sair</button>
+                    <img src="https://github.com/ecthon.png" alt="Ecthon Almeida" />
+                    <a href="/login"><button>Sair</button></a>
                 </Avatar>
             </div>
         </HeaderComponent>
